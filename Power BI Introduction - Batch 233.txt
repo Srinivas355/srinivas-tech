@@ -1,0 +1,401 @@
+Class 1
+
+Agenda 
+
+Introduction to Power BI 
+
+What is Power BI?
+
+Power BI is a Reporting Software
+Power BI is a Data Visualization Software 
+Power BI is a Data Analytics Software 
+Power BI is a Business Intelligence(BI) Software
+
+Who will use Power BI Software ?
+Who will Hire Power BI Developer / Data Analyst ?
+
+Any Company - Business  - Business Data  - Store Data Sources  -  Analyze the Business Data  - Power BI - Power BI Developer
+
+We will Analyze the Business Data  by Generating Reports / Visuals 
+
+-------------------------
+Power BI Developer Need to Implement the Business Intelligence (BI) Process to Analyze the Companies Business Data 
+
+---------------
+Business Intelligence (BI) is a Process which Converts Business Data into Actionable Information 
+
+OLTP(S)		ETL		OLAP		Create Reports / Visuals 		Share Reports / Visuals with Clients 
+Business Data			Analysis 		Actionable Information
+
+The Place where Companies Stores Business Data  / Transactional Data  we call as OLTP System 
+OLTP – Online Transactional  Processing
+
+Note: OLTP Databases are not Recommended for Analysis (Create Reports / Visuals )
+
+OLAP – Online Analytical  Processing
+
+To move Data from OLTP Database to OLAP Database we need ETL Software 
+
+ETL – Extract, Transform & Load
+
+***  Transform  - Converting the data from One Format to Anottther Format we call as Transform (INR - $)
+
+-----------------------
+
+Microsoft Power BI - To Analyse the Business Data - Implement the Business Intelligence (BI) Process
+
+OLTP(S)		ETL		OLAP		Create Reports / Visuals 		Share Reports / Visuals with Clients 
+Business Data			Analysis 		Actionable Information
+
+Power BI is the Name for Collection of Softwares 
+
+1. Power BI Desktop	- Developemnt Software 	- 80 to 90% Time 
+	A. Power Query	- Power Query is an ETL Software in Power BI 
+	B. Power Pivot	- Power Pivot is a Database where we will Create an OLAP Model 
+	C. Power View 	- Power View is used to Create Reports / Visuals (Actionable Information)
+2. Power BI Service	- Its a Azure Cloud Based Server which is used for Share Reports / Visuals with Clients 	99%Clients
+3. Power BI Report Server	- Onpremise Server which is used for Share Reports / Visuals with Clients 		1% Clients 
+4. Power BI Mobile 	- Its a Mobile APP which is used for Viewing Reports / Visuals in Mobiles /Tabs / Ipads
+				IOS / Android / Windows 
+
+--------------------------------------------------------------
+New Batch  18 March 2022 - 9AM to 10 AM(IST)
+
+6PM to 7 PM(IST)
+
+---------
+
+Mail 
+
+1. Recorded Session 
+2. Notepad
+3. Word Document 
+4. Course Content - Course Duration – 60 Hours
+
+-------------------------------------------
+
+ADD ON
+
+ Real-time Project Explanation
+ Resume Preparation, Power BI Developer Roles & Responsibilities
+ Interview Questions Discussions
+ Mock Interviews
+
+Power BI + Data Warehousing Concepts  + SQL 
+
+
+
+------------------------------
+
+Class 2
+
+How to Download and Install Power BI Desktop Software 
+
+Power BI Desktop - Free Software 
+
+Download
+
+https://www.microsoft.com/en-us/download/details.aspx?id=58494
+
+Prerequisities to Install  Power BI Desktop Software 
+
+--------------------
+Supported Operating System
+
+Windows 10, Windows Server 2012 R2, Windows Server 2012, Windows 8, Windows 8.1, Windows Server 2016, Windows Server 2019, Windows 11
+
+Windows 64 Bit OS  - Power BI Desktop 32 Bit  / Power BI Desktop 64 Bit 
+Windows 32 Bit OS   -  Power BI Desktop 32 Bit 
+
+---------------------
+Microsoft Power BI Desktop requires Internet Explorer 10 or greater.
+
+Microsoft Power BI Desktop is available for 32-bit (x86) and 64-bit (x64) platforms.
+
+-------------------------
+Install Power BI Desktop Software 
+
+---------------------
+
+Power BI Desktop
+
+Power BI Desktop is a Developemnt Softwarre in Power BI.
+
+Power BI Desktop is used to Prepare the Data , Model the Data & Visualize the Data 
+
+Prepare the Data 	- ETL Activities  	- Power Query
+Model the Data	- OLAP Model	- Power Pivot
+Visualize the Data 	- Create Visuals 	 - Power View 
+
+-------------------------------
+Overview of Power Query Software 
+
+Power Query is an ETL Software in Power BI 
+
+Power Query can Connect & Extract the Data from almost any Kind of Data Source, Transform the Data as per the Reporting Needs and Loads the Data into Power Pivot .
+
+OLTP(S) / Data Sources  - Excel, SQL Server 
+
+1. Data Sources 
+2. What information we need to Show in Reports / Visuals 
+
+
+Home Tab - Transform Data - Power Query Editor User Interface (UI) - ETL Activities 
+
+ETL – Extract, Transform & Load
+
+Power Query Editor User Interface (UI) - 100's GUI Options - ETL Activities
+
+GUI - Graphical User Interface Options 
+
+----------------------
+Behind Every GUI option Microsoft already Written the Code 
+
+When we use the GUI Options Code will Execute and will Provide the Result 
+
+GUI Options - Code - M( Mashup) Language 
+
+----------------------------------------------------------
+
+Class 3
+
+Overview of Power Pivot Software
+
+Power Pivot is a Inmemory Columnar Database which is used for creating an OLAP Model 
+
+Database  is used to Store the Data in the Form of Tables 
+
+1. Relational Databases / Tradational Databases 
+Eg: Oracle, SQL Server etc.,
+
+When we Access the Data from Relational Databases / Tradational Databases they will Process Data from Hard Disk 
+
+
+2. InMemory Databases 
+Eg: Power Pivot , SAP HANA etc.,
+
+When we Do Reporting on InMemory Databases , they will Give Better Performance then Relational Databases / Tradational Databases
+
+When we Access the Data from InMemory Databases they will Process Data from RAM 
+
+
+In Power Pivot Data will Be Highly Compressed because of Columnar Format 
+
+SQL Server (100 GB)		Power Pivot (Approx 10 GB)
+Row Format			Columnar Format 
+
+-----------------------------------------------
+As a Power BI Developer in Power Pivot we will Perform 2 Activities 
+
+1. Data Modeling 
+***2. Enhancing the Data Model ( DAX Language )
+
+-----------------------------------------------------------------------
+Data Modeling  - Establishing the Relationships Between tables we call as  Data Modeling 
+
+Power BI have Intelligence to Do Majority of Data Modeling Work by itself 
+
+What is the Need of Data Modeling?
+What is the need of Establishing the Relationships Between tables?
+
+When ever we need to Create Visuals using More than One Tables we need to have Relationships Between tables
+
+Majority of Cases clients will Ask us to Create Visuals using More than One Tables 
+
+Data Modeling Work can be Done in Model View 
+
+------------------
+
+ Enhancing the Data Model ( DAX Language )
+
+With the Data Model we can Show Only 70 to 80% of Information what Clients are asking to Show  in the Visuals 
+
+All the Times what information Clients are asking to Show in the Visuals it will not be radily Available in Data Model ( Tables )
+
+Clients will ask us to Some New Information / Additional Information in the Visuals which is not available in Tables 
+
+
+ Enhancing the Data Model  - Creating New Information using Existing Information we call as  Enhancing the Data Model 
+
+New Information - Existing Information + DAX Language 
+
+3 Free Classes 
+
+----------------------
+New Meeting Link 
+
++91 7799771213
++91 7799771214
+
+---------------------------------------------
+Class 4
+
+***Enhancing the Data Model ( DAX Language )
+
+With the Data Model we can Show Only 70 to 80% of Information what Clients are asking to Show  in the Visuals 
+
+All the Times what information Clients are asking to Show in the Visuals it will not be radily Available in Data Model ( Tables )
+
+Clients will ask us to Some New Information / Additional Information in the Visuals which is not available in Tables 
+
+
+Enhancing the Data Model  - Creating New Information using Existing Information we call as  Enhancing the Data Model 
+
+New Information - Existing Information + DAX Language (Functions + Operators )
+
+DAX  - Data Analysis eXpressions Language  - Functional Language 
+
+DAX Language  - Functions + Operators 
+
+--
+
+Enhancing the Data Model  can be Done in Data View
+
+Data View - Select the table where we nneed to Create New Information - Table Tools - Calculations - New Information 
+
+3 Types New Information  
+
+1. Columns	- New Column
+2. Measures	- New Measure / Quick Measure
+3. Tables 	- New Table
+
+New Information - Columns , Measures & Tables - DAX Formulas / DAX Expressions - Existing Information + DAX Functions + DAX Operators 
+
+---------------------
+When to Create Columns?
+
+In a Table for Every Row if we need a Calculation we will Create Columns 
+
+------------------------
+When to Create Measures?
+
+When ever we need to Perform Aggregate Calculations, Percentages we will Create Measures 
+
+In a Table for Group of Rows if we need a Calculation we will Create Measures 
+
+-----------
+Tables  
+
+Date Dimension Tables , Aggregate Tables , Filtered tables 
+
+-----------------------------------------------
+What You will Perform in Power Query?
+
+ETL Activities 
+
+--------------------------------------
+What You will Perform in Power Pivot?
+
+Data Modeling 
+Enhancing the Data Model ( DAX Language )
+
+Prepare a Dataset(OLAP) 
+
+What a Dataset will Contains ?
+
+Dataset - Tables + Relationships Between the Tables + New Information (DAX) - 100 % Information in the Visuals 
+
+
+-------------------------------------------
+Power Query	- Transform Data		- ETL Activities
+Power Pivot	- Model View + Data View	- Dataset
+Power View	- Report View		- Create Visuals 
+
+
+--------------------------------------------
+
+To the Power BI Report we can Add the Data in two Ways 
+
+1. Power Query 			- New Source 
+
+		Ok 	- Selected Tables will get into Power Query	
+		Cancel	- Connection to Data Source wiill Lost
+
+
+2. Power Pivot / Power View	 - Get Data
+
+		Load		- Selected Tables will Load into Power Pivot 
+		Transform Data 	- Tables will Open in Power Query 
+		Cancel		- Connection to Data Source wiill Lost	
+
+--------------------------------------
+Class 5 
+
+Overview of Power View Software
+
+Power View is used to Create Visuals by Taking Dataset as Source 
+
+Graphical Representation of data we call as Visuals 
+
+Report View is the Place where we will Create the Visuals 
+
+------------
+
+Total Qunatity Sold 
+
+Report Canvas is the place we will Build Visuals 
+
+When we Add the Visual to Report Canvas we will get Below 3 Sections
+
+1. Fields Section
+2. Format Section
+3. Analytics Section
+
+With the Help of the 3 Sections we will Complete the Development of the Visuals 
+
+Below the Fileds Section we will Have Field Wells . Field Wells are the Place where we need to Drag Columns 
+
+Visual to Visual the Number of Field Wells will Vary 
+
+Total Qunatity Sold 
+Total Sales Amount 
+Total Profit Amount
+
+Create a Visual to Show Category Wise Sales 
+Create a Visual to Show Category Wise Profits
+-------------------------------
+Overview of Power BI Service
+
+Power BI Service is used to Share Reports with Clients 
+
+When we Join in the Company as a Power BI Developer Clients will Provide UserName & Password to Access Power BI Service 
+
+UserName: EmailId (Sunil.anjuru@dell.com)
+Password : Windows 
+
+user11@sstrainings.in
+password
+
+user12@sstrainings.in
+password
+
+user13@sstrainings.in
+password
+
+In Power BI Service for Each Projject we will  Have One Workspace .
+
+Web Browser
+
+app.powerbi.com
+
+----------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
